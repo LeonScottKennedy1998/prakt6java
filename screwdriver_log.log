@@ -1,0 +1,96 @@
+мая 19, 2024 5:45:06 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 1
+мая 19, 2024 5:45:06 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 1, Тип рукоятки: круглая как жопка, Тип наконечника: крутой, Размер: 12]
+мая 19, 2024 5:45:37 PM org.example.ScrewdriverManager findScrewdriverByID
+WARNING: Отвёртка с ID 0 не найдена
+мая 19, 2024 5:45:39 PM org.example.ScrewdriverManager findScrewdriverByID
+INFO: Найдена отвёртка с ID: 1
+мая 19, 2024 5:46:06 PM org.example.Main main
+WARNING: Некорректный ввод размера при обновлении отвёртки
+мая 19, 2024 5:47:27 PM org.example.Screwdriver setHandleType
+INFO: Тип рукоятки изменен на: у
+мая 19, 2024 5:47:27 PM org.example.Screwdriver setTipType
+INFO: Тип наконечника изменен на: у
+мая 19, 2024 5:47:27 PM org.example.Screwdriver setSize
+INFO: Размер изменен на: 2
+мая 19, 2024 5:47:27 PM org.example.ScrewdriverManager updateScrewdriver
+INFO: Обновлена отвёртка с ID: 1
+мая 19, 2024 5:47:57 PM org.example.ScrewdriverManager deleteScrewdriverById
+WARNING: Отвёртка с ID 0 не найдена
+мая 19, 2024 5:47:59 PM org.example.ScrewdriverManager deleteScrewdriverById
+INFO: Удалена отвёртка с ID: 1
+мая 19, 2024 5:48:06 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 2
+мая 19, 2024 5:48:06 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 2, Тип рукоятки: ф, Тип наконечника: ф, Размер: 12]
+мая 19, 2024 5:48:09 PM org.example.ScrewdriverManager displayAllScrewdrivers
+INFO: Отображён список всех отвёрток
+мая 19, 2024 5:48:15 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 3
+мая 19, 2024 5:48:15 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 3, Тип рукоятки: 2, Тип наконечника: 3, Размер: 12]
+мая 19, 2024 5:48:23 PM org.example.ScrewdriverManager displayAllScrewdrivers
+INFO: Отображён список всех отвёрток
+мая 19, 2024 5:48:30 PM org.example.ScrewdriverManager countScrewdriversBySize
+INFO: Подсчитано количество отвёрток размера 2: 0
+мая 19, 2024 5:48:39 PM org.example.ScrewdriverManager countScrewdriversBySize
+INFO: Подсчитано количество отвёрток размера 12: 2
+мая 19, 2024 5:48:53 PM org.example.ScrewdriverManager clearAllScrewdrivers
+INFO: Все отвёртки удалены
+мая 19, 2024 5:49:08 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 4
+мая 19, 2024 5:49:08 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 4, Тип рукоятки: фывв, Тип наконечника: фыв, Размер: 1]
+мая 19, 2024 5:49:11 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 5
+мая 19, 2024 5:49:11 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 5, Тип рукоятки: ц, Тип наконечника: ц, Размер: 2]
+мая 19, 2024 5:49:17 PM org.example.ScrewdriverManager displayScrewdriversStatistics
+INFO: Просмотрена статистика отвёрток
+мая 19, 2024 5:49:32 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 6
+мая 19, 2024 5:49:38 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 7
+мая 19, 2024 5:49:38 PM org.example.ScrewdriverSet <init>
+INFO: Создан набор отвёрток с ID: 1
+мая 19, 2024 5:49:38 PM org.example.ScrewdriverManager createSetOfScrewdrivers
+INFO: Создан новый набор отвёрток: Набор отвёрток #1: [Отвёртка [Идентификатор: 6, Тип рукоятки: к, Тип наконечника: к, Размер: 12], Отвёртка [Идентификатор: 7, Тип рукоятки: ц, Тип наконечника: ц, Размер: 1]]
+мая 19, 2024 5:49:53 PM org.example.ScrewdriverManager displayScrewdriversStatistics
+INFO: Просмотрена статистика отвёрток
+мая 19, 2024 5:50:01 PM org.example.ScrewdriverManager displayAvailableSets
+INFO: Отображены доступные наборы отвёрток
+мая 19, 2024 5:50:07 PM org.example.Main main
+INFO: Выход из программы
+мая 19, 2024 5:53:28 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 1
+мая 19, 2024 5:53:28 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 1, Тип рукоятки: ф, Тип наконечника: ы, Размер: 12]
+мая 19, 2024 5:53:30 PM org.example.Main main
+INFO: Выход из программы
+мая 19, 2024 8:17:10 PM org.example.Screwdriver <init>
+INFO: Создана отвёртка с ID: 1
+мая 19, 2024 8:17:10 PM org.example.ScrewdriverManager createScrewdriver
+INFO: Создана отвёртка: Отвёртка [Идентификатор: 1, Тип рукоятки: Круглая, Тип наконечника: Крестовая, Размер: 12]
+мая 19, 2024 8:17:21 PM org.example.ScrewdriverManager findScrewdriverByID
+WARNING: Отвёртка с ID 0 не найдена
+мая 19, 2024 8:17:27 PM org.example.Main main
+WARNING: Некорректный ввод размера при создании отвёртки
+мая 19, 2024 8:19:05 PM org.example.ScrewdriverManager deleteScrewdriverById
+WARNING: Отвёртка с ID 4 не найдена
+мая 19, 2024 8:19:09 PM org.example.ScrewdriverManager clearAllScrewdrivers
+INFO: Все отвёртки удалены
+мая 19, 2024 8:19:12 PM org.example.ScrewdriverManager clearAllScrewdrivers
+INFO: Все отвёртки удалены
+мая 19, 2024 8:19:17 PM org.example.ScrewdriverManager displayScrewdriversStatistics
+INFO: Просмотрена статистика отвёрток
+мая 19, 2024 8:19:27 PM org.example.ScrewdriverManager createSetOfScrewdrivers
+SEVERE: Ошибка при создании набора отвёрток
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:964)
+	at java.base/java.util.Scanner.next(Scanner.java:1619)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2284)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2238)
+	at org.example.ScrewdriverManager.createSetOfScrewdrivers(ScrewdriverManager.java:172)
+	at org.example.Main.main(Main.java:125)
+
